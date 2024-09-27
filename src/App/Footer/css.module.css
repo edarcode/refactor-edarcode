@@ -1,5 +1,5 @@
 .footer {
-	display: grid;
-	justify-items: center;
-	padding: var(--md) var(--lg);
+  display: grid;
+  justify-items: center;
+  padding: var(--md) var(--lg);
 }

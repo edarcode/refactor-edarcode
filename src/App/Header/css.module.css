@@ -1,24 +1,24 @@
 .header {
-	background-color: var(--bg-surf);
-	padding: var(--md) var(--lg);
-	position: sticky;
-	top: 0;
-	z-index: 20;
+  background-color: var(--bg-surf);
+  padding: var(--md) var(--lg);
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 
 .nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: var(--md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--md);
 }
 
 .logo {
-	margin-right: auto;
+  margin-right: auto;
 }
 
 @media (prefers-color-scheme: light) {
-	.header {
-		background-color: var(--l-bg-surf);
-	}
+  .header {
+    background-color: var(--l-bg-surf);
+  }
 }

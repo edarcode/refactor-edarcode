@@ -1,4 +1,7 @@
 .nav {
-	display: grid;
-	gap: var(--g-sm);
+  display: grid;
+  place-items: start;
+  place-content: start;
+  gap: var(--sm);
+  padding: var(--lg);
 }

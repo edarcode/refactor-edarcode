@@ -4,14 +4,12 @@ import css from "./css.module.css";
 
 export default function Utils() {
   return (
-    <div className={css.utils}>
-      <nav className={css.nav}>
-        {USEFUL_LINKS.map((link) => (
-          <Hyperlink key={link.href} href={link.href}>
-            {link.display}
-          </Hyperlink>
-        ))}
-      </nav>
-    </div>
+    <nav className={css.nav}>
+      {USEFUL_LINKS.map((link) => (
+        <Hyperlink key={link.href} href={link.href}>
+          {link.display}
+        </Hyperlink>
+      ))}
+    </nav>
   );
 }
