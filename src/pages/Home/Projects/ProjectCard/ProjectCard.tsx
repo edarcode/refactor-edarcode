@@ -7,11 +7,9 @@ export default function ProjectCard({ project }: Props) {
   return (
     <article className={css.project}>
       <h4 className={css.title}>{title}</h4>
-      <p>
-        {description}{" "}
-        {project.deploy && <Hyperlink href={project.deploy}>Deploy</Hyperlink>}
-      </p>
+      <p>{description}</p>
       <p>Tecnologías: {tools}</p>
+      <Hyperlink href={project.deploy}>Deploy</Hyperlink>
     </article>
   );
 }

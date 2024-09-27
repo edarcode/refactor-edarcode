@@ -4,39 +4,39 @@ export const EDARCODE = {
   skills: [
     {
       name: "HTML",
-      logo: "/svg/tech/html.svg",
+      logo: "/tech/html.svg",
     },
     {
       name: "CSS",
-      logo: "/svg/tech/css.svg",
+      logo: "/tech/css.svg",
     },
     {
       name: "JavaScript",
-      logo: "/svg/tech/js.svg",
-    },
-    {
-      name: "React",
-      logo: "/svg/tech/react.svg",
-    },
-    {
-      name: "Node.js",
-      logo: "/svg/tech/nodejs.svg",
-    },
-    {
-      name: "Express",
-      logo: "/svg/tech/express.svg",
+      logo: "/tech/js.svg",
     },
     {
       name: "TypeScript",
-      logo: "/svg/tech/typescript.svg",
+      logo: "/tech/typescript.svg",
+    },
+    {
+      name: "React",
+      logo: "/tech/react.svg",
+    },
+    {
+      name: "Node.js",
+      logo: "/tech/nodejs.svg",
+    },
+    {
+      name: "Express",
+      logo: "/tech/express.svg",
     },
     {
       name: "Prisma",
-      logo: "/svg/tech/prisma.svg",
+      logo: "/tech/prisma.svg",
     },
     {
       name: "PostgreSQL",
-      logo: "/svg/tech/postgresql.svg",
+      logo: "/tech/postgresql.svg",
     },
   ],
   networks: [
@@ -68,24 +68,11 @@ export const EDARCODE = {
   ],
   projects: [
     {
-      title: "Gestor de usuarios",
-      deploy: "",
-      description:
-        "Crea, busca, actualiza y elimina usuarios. Cuenta con filtrado y ordenado. Además, almacena los datos de forma persistente en una base de datos.",
-      tools:
-        "Vite, HTML, CSS, JavaScript, React, Zustand, Node.js, Express, Prisma-PostgreSQL.",
-      imgs: {
-        mobile:
-          "https://res.cloudinary.com/dvmsllkkg/image/upload/v1720285187/edarcode/projects/user-list/user-list-mobile.png",
-        pc: "https://res.cloudinary.com/dvmsllkkg/image/upload/v1720285187/edarcode/projects/user-list/user-list-pc.png",
-      },
-    },
-    {
       title: "Notaku",
       deploy: "https://notaku.vercel.app/",
       description:
         "Encontrarás las últimas noticias, novedades del mundo del anime, junto con una herramienta de búsqueda que permite filtrar animes por título, género, popularidad y mucho más. Los datos son consultados en la API de kitsu.",
-      tools: "Vite, React, TanStack Query, React Hook Form",
+      tools: "Vite, React, TS, TanStack Query, React Hook Form",
       imgs: {
         mobile: "",
         pc: "",

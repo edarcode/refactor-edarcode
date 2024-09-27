@@ -2,6 +2,6 @@
   display: grid;
   gap: var(--md);
   justify-items: start;
-  max-width: 340px;
+  max-width: 500px;
   border-radius: var(--sm);
 }

@@ -1,8 +1,9 @@
 .home {
-	display: grid;
-	gap: var(--lg);
-}
+  display: grid;
+  gap: var(--lg);
+  padding: var(--lg);
 
-.titles {
-	padding: 0 var(--lg);
+  .titles {
+    padding: 0 var(--lg);
+  }
 }

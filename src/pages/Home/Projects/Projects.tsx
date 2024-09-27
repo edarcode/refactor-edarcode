@@ -4,10 +4,10 @@ import css from "./css.module.css";
 
 export default function Projects() {
   return (
-    <section>
+    <section className={css.projects}>
       <h3>Proyectos</h3>
-      <div className={css.projects}>
-        <ProjectCard project={EDARCODE.projects[1]} />
+      <div className={css.cards}>
+        <ProjectCard project={EDARCODE.projects[0]} />
       </div>
     </section>
   );

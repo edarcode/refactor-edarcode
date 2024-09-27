@@ -1,4 +1,9 @@
 .projects {
-	display: flex;
-	flex-wrap: wrap;
+  display: grid;
+  gap: var(--sm);
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
