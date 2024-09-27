@@ -1,0 +1,13 @@
+.banner {
+  display: grid;
+  gap: var(--md);
+}
+
+.description {
+  display: grid;
+  gap: var(--sm);
+}
+
+.banner p {
+  max-width: 340px;
+}
