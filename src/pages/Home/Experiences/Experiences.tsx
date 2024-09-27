@@ -3,8 +3,8 @@ import css from "./css.module.css";
 export default function Experiences() {
   return (
     <section className={css.experience}>
+      <h3>Experiencia</h3>
       <article>
-        <h3>Experiencia</h3>
         <h4>Tutor de enseñanza Full-Stack</h4>
         <p>
           Tutor de enseñanza en el bootcamp de desarrollo Full Stack Henry.

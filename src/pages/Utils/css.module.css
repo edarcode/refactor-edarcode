@@ -1,7 +1,9 @@
 .nav {
   display: grid;
   place-items: start;
-  place-content: start;
+  margin-left: auto;
+  margin-right: auto;
   gap: var(--sm);
   padding: var(--lg);
+  max-width: 600px;
 }

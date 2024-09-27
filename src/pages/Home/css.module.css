@@ -2,6 +2,7 @@
   display: grid;
   gap: var(--lg);
   padding: var(--lg);
+  justify-content: center;
 
   .titles {
     padding: 0 var(--lg);

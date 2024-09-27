@@ -1,6 +1,6 @@
 .skills {
   display: grid;
-  gap: var(--md);
+  gap: var(--sm);
 }
 
 .logos {
